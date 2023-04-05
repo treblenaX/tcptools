@@ -1,5 +1,9 @@
 <!-- space for the script -->
 
+## Capture the DHCP traffic for your laptop
+    Filter out any extraneous traffic so we see only the DHCP traffic
+    Submit a screenshot of the DORA process and the lease time offered by the DHCP server.
+
 I was able to capture the DHCP traffic for my laptop by `releasing` and `renewing` my IP address.
 
 Since I am on the MacOS, I released my IP address by doing these commands [(source)](https://apple.stackexchange.com/questions/17401/how-can-i-release-and-renew-my-dhcp-lease-from-terminal):

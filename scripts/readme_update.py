@@ -3,6 +3,7 @@ file_map = {
     'tracert.md': 'Using \"tracert\"',
     'ngrok.md': 'Using \"ngrok\"',
     'wireshark.md': 'Using packet-capture tools',
+    'insecure.md': 'Insecure web server',
 }
 
 readme = ''
