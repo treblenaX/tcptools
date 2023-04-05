@@ -1,6 +1,7 @@
 file_map = {
     'ping.md': 'Using \"ping\"',
-    'tracert.md': 'Using \"tracert\"'
+    'tracert.md': 'Using \"tracert\"',
+    'ngrok.md': 'Using \"ngrok\"',
 }
 
 readme = ''
