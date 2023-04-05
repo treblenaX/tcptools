@@ -125,7 +125,7 @@ The IP address did not change for a website between pings; however, I did notice
 
 My ISP seems to be derivable from this DNS and IP: `lo0--5.uwcr-atg-1.infra.washington.edu (198.48.66.5)`. It seems that my second hop for all of the routes hits this point where it is a public IP address for the first time. 
 
-![whatismyipaddress.com image](../img/isp.png)
+![whatismyipaddress.com image](https://github.com/treblenaX/tcptools/blob/main/img/isp.png)
 
 According to `whatismyipaddress.com`, my ISP is the University of Washington which makes total sense as I am on the UW WiFi. 
 
@@ -233,4 +233,22 @@ According to `whatismyipaddress.com`, my ISP is the University of Washington whi
 
 I checked out "ngrok" and deployed a really quick website! 
 
-![ngrok image](../img/ngrok.png)</details>
+![ngrok image](https://github.com/treblenaX/tcptools/blob/main/img/ngrok.png)</details>
+<details>
+                <summary>Using packet-capture tools</summary>
+                    <!-- space for the script -->
+
+I was able to capture the DHCP traffic for my laptop by `releasing` and `renewing` my IP address.
+
+Since I am on the MacOS, I released my IP address by doing these commands [(source)](https://apple.stackexchange.com/questions/17401/how-can-i-release-and-renew-my-dhcp-lease-from-terminal):
+
+    sudo ipconfig set en0 BOOTP
+    sudo ipconfig set en0 DHCP
+
+Then I `renewed` my IP address by going into my Network settings and renewing the DHCP lease using the Apple GUI.
+
+Here is the result where we can see the `Discover, Offer, Request, and Acknowledgement`:
+
+![dhcp image](https://github.com/treblenaX/tcptools/blob/main/img/dhcp.png)
+
+>Looks like the IP lease time is 90 days!</details>
