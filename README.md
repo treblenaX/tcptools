@@ -3,6 +3,7 @@
 <details>
                 <summary>Using "ping"</summary>
                     <!-- space for the script -->
+
 ## `ping` three popular websites (for 5 or so packets each)
     1. Ping www.amazon.com three times
     2. Ping www.google.com  three times
@@ -85,6 +86,7 @@ The IP address did not change for a website between pings; however, I did notice
 <details>
                 <summary>Using "tracert"</summary>
                     <!-- space for the script -->
+
 ## Use `tracert` (or `traceroute`, depending on your OS) on the following sites:
     www.amazon.com
     www.google.com
