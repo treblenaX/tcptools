@@ -14,7 +14,8 @@ jobs:
         run: python scripts/readme_update.py
       - name: Commit files
         run: |
-          git config --local user.name "treblenaX"
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
           git add README.md
           git commit -m "Updated readme with the markdown files"
       - name: Push changes
