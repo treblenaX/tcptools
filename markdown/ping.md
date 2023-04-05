@@ -1,4 +1,3 @@
-# Using "ping"
 
 ## `ping` three popular websites (for 5 or so packets each)
     1. Ping www.amazon.com three times
