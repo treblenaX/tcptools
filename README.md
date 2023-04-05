@@ -238,6 +238,10 @@ I checked out "ngrok" and deployed a really quick website!
                 <summary>Using packet-capture tools</summary>
                     <!-- space for the script -->
 
+## Capture the DHCP traffic for your laptop
+    Filter out any extraneous traffic so we see only the DHCP traffic
+    Submit a screenshot of the DORA process and the lease time offered by the DHCP server.
+
 I was able to capture the DHCP traffic for my laptop by `releasing` and `renewing` my IP address.
 
 Since I am on the MacOS, I released my IP address by doing these commands [(source)](https://apple.stackexchange.com/questions/17401/how-can-i-release-and-renew-my-dhcp-lease-from-terminal):
@@ -252,3 +256,21 @@ Here is the result where we can see the `Discover, Offer, Request, and Acknowled
 ![dhcp image](https://github.com/treblenaX/tcptools/blob/main/img/dhcp.png)
 
 >Looks like the IP lease time is 90 days!</details>
+<details>
+                <summary>Insecure web server</summary>
+                    <!-- space for the script -->
+
+    Navigate to http://150.230.36.255/
+    Submit the login form with any email and password while capturing packets with Wireshark.
+    Filter out any extraneous traffic so we see only the traffic to the server
+    Take a screen shot of Wireshark showing the payload (email, password) you sent to the server
+    Store the screen shot in the Github repo
+
+After filtering out the traffic to packets with a destination to `150.230.36.255`, we can see how our payload is insecure and how I found the credentials I put into the website.
+
+    email: t@t.com
+    password: test
+
+![insecure web server with data](https://github.com/treblenaX/tcptools/blob/main/img/insecure.png)
+
+</details>
