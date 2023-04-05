@@ -2,4 +2,4 @@
 
 I checked out "ngrok" and deployed a really quick website! 
 
-![ngrok image](../img/ngrok.png)
+![ngrok image](https://github.com/treblenaX/tcptools/blob/main/img/ngrok.png)

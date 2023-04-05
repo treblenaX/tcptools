@@ -38,7 +38,7 @@
 
 My ISP seems to be derivable from this DNS and IP: `lo0--5.uwcr-atg-1.infra.washington.edu (198.48.66.5)`. It seems that my second hop for all of the routes hits this point where it is a public IP address for the first time. 
 
-![whatismyipaddress.com image](../img/isp.png)
+![whatismyipaddress.com image](https://github.com/treblenaX/tcptools/blob/main/img/isp.png)
 
 According to `whatismyipaddress.com`, my ISP is the University of Washington which makes total sense as I am on the UW WiFi. 
 
