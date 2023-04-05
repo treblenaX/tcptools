@@ -227,3 +227,10 @@ According to `whatismyipaddress.com`, my ISP is the University of Washington whi
     10  * * *
     11  a23-216-81-152.deploy.static.akamaitechnologies.com (23.216.81.152)  4.141 ms  2.418 ms  3.298 ms
 </details>
+<details>
+                <summary>Using "ngrok"</summary>
+                    <!-- space for the script -->
+
+I checked out "ngrok" and deployed a really quick website! 
+
+![ngrok image](../img/ngrok.png)</details>
