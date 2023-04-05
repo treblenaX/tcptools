@@ -1,4 +1,4 @@
-
+<!-- space for the script -->
 ## `ping` three popular websites (for 5 or so packets each)
     1. Ping www.amazon.com three times
     2. Ping www.google.com  three times
