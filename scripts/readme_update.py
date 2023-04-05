@@ -2,6 +2,7 @@ file_map = {
     'ping.md': 'Using \"ping\"',
     'tracert.md': 'Using \"tracert\"',
     'ngrok.md': 'Using \"ngrok\"',
+    'wireshark.md': 'Using packet-capture tools',
 }
 
 readme = ''
